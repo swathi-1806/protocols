@@ -1,7 +1,7 @@
 class eth_tx extends uvm_sequence_item;
 
 	 	 bit [55:0]preamble;
-  		 bit [7:0] sof;
+  bit [7:0] sof;
 
 	rand bit [47:0] dst_mac;
 	rand bit [47:0] src_mac;
